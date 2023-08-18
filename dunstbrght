@@ -1,0 +1,10 @@
+#!/bin/sh
+# changeBrightness
+
+iconPath="/usr/share/icons/ePapirus-Dark/32x32/apps/"
+
+brightness="$(xbacklight -get | cut -d "." -f 1)"
+
+notify-send -a "changeBrightness" -h string:x-dunst-stack-tag:$msgTag -i $iconPath/brightnesssettings.svg -h int:value:"$brightness" "Brightness: ${brightness}" --expire-time=1000
+
+
