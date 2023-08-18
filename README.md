@@ -8,4 +8,5 @@ Also includes some usefull scripts for dunst to show volume/brightness changes(s
 
 -Reqs:
 	JetbrainsMono
-	Font Awesome 6
+	
+ 	Font Awesome 6
